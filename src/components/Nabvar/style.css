@@ -1,0 +1,33 @@
+/* Nabvar style */
+
+.clase-navbar {
+    background-color: rgba(247, 121, 230, 0.329);
+    padding: 8px 16px;
+  }
+  
+  .clase-navbar div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  ul li {
+    list-style: none;
+  }
+
+  .lista2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    gap: 16px;
+  }
+  
+  .clase-navbar ul li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .clase-navbar ul li a:hover {
+    text-decoration: underline;
+  }

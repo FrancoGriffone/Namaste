@@ -1,0 +1,10 @@
+.button {
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+}
+.button p {
+    margin-top: 7px;
+}

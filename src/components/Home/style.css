@@ -1,0 +1,50 @@
+  /* sección primera */
+
+  /* <a href="https://ibb.co/5r4nLBJ"><img src="https://i.ibb.co/ZBXYxWb/close-up-woman-meditating-on-yoga-mat.jpg" alt="close-up-woman-meditating-on-yoga-mat" border="0"></a> */
+  .seccionUno {
+    background: url(https://i.ibb.co/ZBXYxWb/close-up-woman-meditating-on-yoga-mat.jpg);
+    background-size:cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .titulo , .subTitulo {
+    color: whitesmoke;
+    margin-right: 100px;
+  }
+  
+  .titulo {
+    font-size: 60px;
+  }
+  
+  .subTitulo {
+    font-size: x-large;
+  }
+  
+    /* sección intermedia */
+  
+  .seccionIntermedia {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .seccionIntermedia h2 {
+    color: rgb(231, 118, 137);
+  }
+  
+    /* seccion segunda */
+  
+    /*<a href="https://ibb.co/YBRJgMy"><img src="https://i.ibb.co/fd1ZJ5n/dried-flower-window-shadow-floral-image.jpg" alt="dried-flower-window-shadow-floral-image" border="0"></a>*/
+  .seccionDos {
+    background: url(https://i.ibb.co/fd1ZJ5n/dried-flower-window-shadow-floral-image.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
