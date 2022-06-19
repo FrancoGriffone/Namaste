@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/FrancoGriffone/Namaste/static/css/main.0f504abb.css",
-    "main.js": "/FrancoGriffone/Namaste/static/js/main.f5e62410.js",
-    "static/js/787.b0366c8f.chunk.js": "/FrancoGriffone/Namaste/static/js/787.b0366c8f.chunk.js",
-    "static/media/instagram.png": "/FrancoGriffone/Namaste/static/media/instagram.e719d8b29f452a16302d.png",
-    "static/media/whatsapp.png": "/FrancoGriffone/Namaste/static/media/whatsapp.c826b0165560636baf0b.png",
-    "static/media/carrito.png": "/FrancoGriffone/Namaste/static/media/carrito.47772a85d8cde05caeed.png",
-    "static/media/yoga.png": "/FrancoGriffone/Namaste/static/media/yoga.cea6be5599d8de7efb39.png",
-    "index.html": "/FrancoGriffone/Namaste/index.html",
-    "main.0f504abb.css.map": "/FrancoGriffone/Namaste/static/css/main.0f504abb.css.map",
-    "main.f5e62410.js.map": "/FrancoGriffone/Namaste/static/js/main.f5e62410.js.map",
-    "787.b0366c8f.chunk.js.map": "/FrancoGriffone/Namaste/static/js/787.b0366c8f.chunk.js.map"
+    "main.css": "/Namaste/static/css/main.0f504abb.css",
+    "main.js": "/Namaste/static/js/main.8c73b330.js",
+    "static/js/787.b0366c8f.chunk.js": "/Namaste/static/js/787.b0366c8f.chunk.js",
+    "static/media/instagram.png": "/Namaste/static/media/instagram.e719d8b29f452a16302d.png",
+    "static/media/whatsapp.png": "/Namaste/static/media/whatsapp.c826b0165560636baf0b.png",
+    "static/media/carrito.png": "/Namaste/static/media/carrito.47772a85d8cde05caeed.png",
+    "static/media/yoga.png": "/Namaste/static/media/yoga.cea6be5599d8de7efb39.png",
+    "index.html": "/Namaste/index.html",
+    "main.0f504abb.css.map": "/Namaste/static/css/main.0f504abb.css.map",
+    "main.8c73b330.js.map": "/Namaste/static/js/main.8c73b330.js.map",
+    "787.b0366c8f.chunk.js.map": "/Namaste/static/js/787.b0366c8f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0f504abb.css",
-    "static/js/main.f5e62410.js"
+    "static/js/main.8c73b330.js"
   ]
 }
