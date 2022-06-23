@@ -1,5 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import "./style.css"
+import Cart2 from "../Checkout/Cart2"
+import { Context } from '../../Context/Context';
 
 // Firebase
 import { collection, addDoc } from 'firebase/firestore';
@@ -26,59 +28,63 @@ const initialState = {
 const Shop = () => {
 	const [values, setValues] = useState(initialState);
 	// Este estado está destinado a guardar el id de la compra
-	const [purchaseID, setPurchaseID] = useState('');
+	const [compraID, setCompraID] = useState('');
+
+	const {cart} = useContext(Context)
 
 	const handleOnChange = (e) => {
 		const { value, name } = e.target;
-		setValues({ ...values, [name]: value });
+		setValues({ ...values, [name] : value });
 	};
 
 	const onSubmit = async (e) => {
 		e.preventDefault();
-		// Add a new document with a generated id.
-		const docRef = await addDoc(collection(db, 'purchases'), {
+		const docRef = await addDoc(collection(db, 'compras'), {
 			values,
+			cart,
 		});
-		console.log('Document written with ID: ', docRef.id);
-		setPurchaseID(docRef.id);
+		setCompraID(docRef.id);
 		setValues(initialState);
 	};
 
 	return (
 		<div style={styles.containerShop}>
+			<div className='cartInsideContainer'>
+				<Cart2 />
+			</div>
 			<h1>Completa los datos para finalizar la compra</h1>
 			<form className='FormContainer' onSubmit={onSubmit}>
 				<TextField
 					placeholder='Nombre'
 					style={{ margin: 10, width: 400 }}
-					name='Nombre'
+					name='nombre'
 					value={values.nombre}
 					onChange={handleOnChange}
 				/>
 				<TextField
 					placeholder='Apellido'
 					style={{ margin: 10, width: 400 }}
-					name='Apellido'
+					name='apellido'
 					value={values.apellido}
 					onChange={handleOnChange}
 				/>
 				<TextField
 					placeholder='Email'
 					style={{ margin: 10, width: 400 }}
-					name='Email'
+					name='email'
 					value={values.email}
 					onChange={handleOnChange}
 				/>
 				<TextField
 					placeholder='Teléfono'
 					style={{ margin: 10, width: 400 }}
-					name='Teléfono'
+					name='telefono'
 					value={values.telefono}
 					onChange={handleOnChange}
 				/>
 				<button className='btnASendAction'>Finalizar compra</button>
 			</form>
-			{purchaseID && <MessageSuccess purchaseID={purchaseID} />}
+			{compraID && <MessageSuccess compraID={compraID} />}
 		</div>
 	);
 };
