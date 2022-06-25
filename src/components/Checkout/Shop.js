@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 import "./style.css"
-import Cart2 from "../Checkout/Cart2"
+import CartInsideCheckout from "../Cart/CartInsideCheckout"
 import { Context } from '../../Context/Context';
 
 // Firebase
@@ -49,8 +49,8 @@ const Shop = () => {
 
 	return (
 		<div style={styles.containerShop}>
-			<div className='cartInsideContainer'>
-				<Cart2 />
+			<div className='cartInsideCheckout'>
+				<CartInsideCheckout />
 			</div>
 			<h1>Completa los datos para finalizar la compra</h1>
 			<form className='FormContainer' onSubmit={onSubmit}>
