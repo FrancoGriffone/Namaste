@@ -3,8 +3,7 @@ import './style.css'
 import { Link } from 'react-router-dom';
 
 
-const Category = () =>{
-    const panels = document.querySelectorAll(".panel");
+const panels = document.querySelectorAll(".panel");
 
     panels.forEach((panel) => {
       panel.addEventListener("click", () => {
@@ -18,6 +17,8 @@ const Category = () =>{
         panel.classList.remove("active");
       });
     };
+
+const Category = () =>{
 
     return (
       <>

@@ -2,7 +2,6 @@ import React from 'react';
 import PrimeraSeccion from './Portada/PrimeraSeccion';
 import SeccionIntermedia from './SeccionIntermedia/SeccionIntermedia';
 import SegundaSeccion from './FraseEmblema/SegundaSeccion';
-import ItemListContainer from '../ItemListContainer/ItemListContainer';
 import Category from '../Category/Category';
 
 const Home = () => {
@@ -12,7 +11,6 @@ const Home = () => {
       <SeccionIntermedia />
       <SegundaSeccion />
       <Category />
-      {/* <ItemListContainer /> */}
       </>
     );
   };

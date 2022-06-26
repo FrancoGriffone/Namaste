@@ -14,7 +14,7 @@ const Footer = () => {
         </div>
         <div className="guiaDatos">
             <Link to={"/"} className="footerInicio"><h3>Inicio</h3></Link>
-            <h3>Productos</h3>
+            <Link to={"/products"} className="footerInicio"><h3>Productos</h3></Link>
         </div>
         <div className="redes" id="redes">
             <img src= { Facebook } alt="logo" width="30px" className="facebook"></img>
