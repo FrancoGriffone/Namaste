@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Namaste/static/css/main.b2255937.css",
+    "main.css": "/Namaste/static/css/main.d80a5678.css",
     "main.js": "/Namaste/static/js/main.b0bf6c53.js",
     "static/js/787.b0366c8f.chunk.js": "/Namaste/static/js/787.b0366c8f.chunk.js",
     "static/media/instagram.png": "/Namaste/static/media/instagram.e719d8b29f452a16302d.png",
@@ -8,12 +8,12 @@
     "static/media/carrito.png": "/Namaste/static/media/carrito.47772a85d8cde05caeed.png",
     "static/media/yoga.png": "/Namaste/static/media/yoga.cea6be5599d8de7efb39.png",
     "index.html": "/Namaste/index.html",
-    "main.b2255937.css.map": "/Namaste/static/css/main.b2255937.css.map",
+    "main.d80a5678.css.map": "/Namaste/static/css/main.d80a5678.css.map",
     "main.b0bf6c53.js.map": "/Namaste/static/js/main.b0bf6c53.js.map",
     "787.b0366c8f.chunk.js.map": "/Namaste/static/js/787.b0366c8f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2255937.css",
+    "static/css/main.d80a5678.css",
     "static/js/main.b0bf6c53.js"
   ]
 }
