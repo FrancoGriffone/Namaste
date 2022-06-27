@@ -10,6 +10,7 @@
 }
 .containerPanels {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
     margin: 1.5% 5% 1.5% 5%;
