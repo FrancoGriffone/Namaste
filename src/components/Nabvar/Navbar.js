@@ -15,14 +15,16 @@ const Navbar = () => {
             </li>
         </ul>
         <ul className="lista2">
+          <li className="d-none d-sm-block">
             <CategoryMenu />
+          </li>
           <li>
-            <a href="/" title="Descubre sobre mi personalidad">
+            <a href="/" title="Descubre sobre mi personalidad" className='d-none d-md-block'>
               Sobre mí
             </a>
           </li>
           <li>
-            <a href="#redes" title="Entra en contacto conmigo">
+            <a href="#redes" title="Entra en contacto conmigo" className='d-none d-md-block'>
               Contacto
             </a>
           </li>

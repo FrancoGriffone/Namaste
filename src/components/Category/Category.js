@@ -17,7 +17,8 @@ const panels = document.querySelectorAll(".panel");
         panel.classList.remove("active");
       });
     };
-
+/*funcionando indefinidamente el switch para agrandar los paneles, habría que sacar la class active de todos y dejarla solo en uno, de esa forma
+la web se vería correctamente en dispositivos más pequeños*/ 
 const Category = () =>{
 
     return (

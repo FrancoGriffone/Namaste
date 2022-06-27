@@ -24,7 +24,6 @@ return(
                     return <div key={items.id} className="itemCompra">                                      
                                     <div>
                                         <div className="datosItem1">
-                                            {/* <img src={items.image} alt={items.id} width="20%"/> */}
                                             <Button className="button" id={items.id} onClick={ removeItem }>X</Button>
                                         </div> 
                                         <div className="datosItem2">
@@ -48,7 +47,7 @@ return(
                                                 <CardContext />
                                             </div>
                                             <div className="d-flex buttons">
-                                                <button className="btn btn-danger ms-4" onClick={ vaciarCart } >Vaciar Carrito</button>
+                                                <button className="btn btn-danger ms-4 d-none d-sm-block" onClick={ vaciarCart } >Vaciar Carrito</button>
                                                 <Link to={"/"} className="btn btn-primary ms-4">Volver a productos</Link>
                                             </div>
                                         </div> : <div/> }

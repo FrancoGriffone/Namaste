@@ -99,7 +99,7 @@ const Shop = () => {
 				<TextField
 					className='nombre'
 					placeholder='Nombre'
-					style={{ margin: 10, width: 400 }}
+					style={{ margin: 10, width: "50%" }}
 					name='nombre'
 					value={values.nombre}
 					onChange={handleOnChange}
@@ -111,7 +111,7 @@ const Shop = () => {
 				<TextField
 					className='apellido'
 					placeholder='Apellido'
-					style={{ margin: 10, width: 400 }}
+					style={{ margin: 10, width: "50%" }}
 					name='apellido'
 					value={values.apellido}
 					onChange={handleOnChange}
@@ -123,7 +123,7 @@ const Shop = () => {
 				<TextField
 					className='email'
 					placeholder='Email'
-					style={{ margin: 10, width: 400 }}
+					style={{ margin: 10, width: "50%" }}
 					name='email'
 					value={values.email}
 					onChange={handleOnChange}
@@ -135,7 +135,7 @@ const Shop = () => {
 				<TextField
 					className='telefono'
 					placeholder='Teléfono'
-					style={{ margin: 10, width: 400 }}
+					style={{ margin: 10, width: "50%" }}
 					name='telefono'
 					value={values.telefono}
 					onChange={handleOnChange}
@@ -144,7 +144,7 @@ const Shop = () => {
 					required
 				/>
 				{errors.telefono && <p style={{ color: "red"}}>{errors.telefono}</p>}
-				<button className='btnASendAction'>Finalizar compra</button>
+				<button className='btnASendAction'style={{ width: "35%" }}>Finalizar compra</button>
 			</form>
 			{compraID && <MessageSuccess compraID={compraID} />}
 		</div>
