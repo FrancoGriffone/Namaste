@@ -24,6 +24,7 @@ const Category = () =>{
     return (
       <>
         <h2 className='fraseProductos'>Descubre las distintas formas de mejorar tu vida</h2>
+      <div className='d-none d-xl-block'>
         <div className='body'>
         <div className="containerPanels">
           <div className="panel active" style={{ backgroundImage: "url(https://firebasestorage.googleapis.com/v0/b/yoga-app-f6019.appspot.com/o/respiracion.jpg?alt=media&token=8fc24c26-6871-4a34-a2be-b8c0737e8aaf)" }}>
@@ -40,6 +41,25 @@ const Category = () =>{
           </div>
         </div>
         </div>
+      </div>
+      <div className='d-block d-xl-none'>
+        <div className='body'>
+        <div className="containerSmallPanels">
+          <div className="smallPanels" style={{ backgroundImage: "url(https://firebasestorage.googleapis.com/v0/b/yoga-app-f6019.appspot.com/o/respiracion.jpg?alt=media&token=8fc24c26-6871-4a34-a2be-b8c0737e8aaf)" }}>
+          <Link to={`/products`}><h3>Todos los cursos</h3></Link>
+          </div>
+          <div className="smallPanels" style={{ backgroundImage: "url(https://firebasestorage.googleapis.com/v0/b/yoga-app-f6019.appspot.com/o/kaca.jpg?alt=media&token=4e056f03-3db2-4ecb-bce4-5ab4292d94b3)" }}>
+          <Link to={`/category/espirituales`}><h3>Cursos espirituales</h3></Link>
+          </div>
+          <div className="smallPanels" style={{ backgroundImage: "url(https://firebasestorage.googleapis.com/v0/b/yoga-app-f6019.appspot.com/o/mudras.jpg?alt=media&token=8746c8f0-d3a5-4189-be4f-f84627a5dd17)" }}>
+          <Link to={`/category/fisicos`}><h3>Cursos físicos</h3></Link>
+          </div>
+          <div className="smallPanels" style={{ backgroundImage: "url(https://firebasestorage.googleapis.com/v0/b/yoga-app-f6019.appspot.com/o/comunidad.jpg?alt=media&token=fa285583-a2b6-4a4a-9a6e-a5665657c956)" }}>
+          <Link to={`/category/otros`}><h3>Otros cursos</h3></Link>
+          </div>
+        </div>
+        </div>
+      </div>
       </>
     );
 }
