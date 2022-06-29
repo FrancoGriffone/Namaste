@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Namaste/static/css/main.82ccc72f.css",
+    "main.css": "/Namaste/static/css/main.1dcd67e0.css",
     "main.js": "/Namaste/static/js/main.a8d5c1ad.js",
     "static/js/787.b0366c8f.chunk.js": "/Namaste/static/js/787.b0366c8f.chunk.js",
     "static/media/instagram.png": "/Namaste/static/media/instagram.e719d8b29f452a16302d.png",
@@ -8,12 +8,12 @@
     "static/media/carrito.png": "/Namaste/static/media/carrito.47772a85d8cde05caeed.png",
     "static/media/yoga.png": "/Namaste/static/media/yoga.cea6be5599d8de7efb39.png",
     "index.html": "/Namaste/index.html",
-    "main.82ccc72f.css.map": "/Namaste/static/css/main.82ccc72f.css.map",
+    "main.1dcd67e0.css.map": "/Namaste/static/css/main.1dcd67e0.css.map",
     "main.a8d5c1ad.js.map": "/Namaste/static/js/main.a8d5c1ad.js.map",
     "787.b0366c8f.chunk.js.map": "/Namaste/static/js/787.b0366c8f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82ccc72f.css",
+    "static/css/main.1dcd67e0.css",
     "static/js/main.a8d5c1ad.js"
   ]
 }
