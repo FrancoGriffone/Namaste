@@ -15,7 +15,11 @@
     .titulo , .subTitulo {
       color: whitesmoke;
     }
-    
+    .titulares {
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+    }
     .titulo {
       font-size: 40px;
     }
